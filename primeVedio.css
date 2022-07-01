@@ -1,0 +1,181 @@
+.prime-container {
+    width: 100%;
+    margin-top: -60px;
+    padding: 0;
+
+}
+
+.prime-image-content {
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 500px 0 500px 20px rgba(5, 5, 5, 0.892);
+}
+
+.prime-content {
+    width: 50%;
+    height: inherit;
+    margin: 60px;
+    font-size: 18px;
+}
+
+.tags {
+    width: 100%;
+    display: flex;
+}
+
+.premium-check {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+}
+
+.tags__premium {
+    display: flex;
+    width: 80px;
+    background-color: bisque;
+    color: white;
+    text-align: center;
+    background-color: rgb(236, 12, 12);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.tags__rating {
+    width: 40px;
+    color: white;
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.title {
+    color: white;
+}
+
+.general {
+    color: gray;
+
+}
+
+.description {
+    color: white;
+    font-size: 18px;
+    max-height: auto;
+    overflow: hidden;
+}
+
+.top-button-container {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.remove {
+    cursor: pointer;
+    color: rgb(143, 25, 43);
+    margin: 100px;
+}
+
+.form__submit {
+    background: linear-gradient(0deg, #b61a09, #ff6d2e);
+    /* height: 60px; */
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+svg {
+    width: 16px;
+    height: 16px;
+}
+
+.box-button {
+    visibility: hidden;
+    display: flex;
+    margin: 10px;
+
+}
+
+.button5 {
+    width: 200px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.text-icon {
+    width: 200px;
+    height: 100px;
+    margin: 40px;
+}
+
+path {
+    background-color: #ff6d2e;
+    width: 10px;
+    height: 10px;
+}
+
+
+
+/* -------------------------------------- */
+
+.prime-wrapper {
+    background-color: rgb(19, 19, 19);
+    height: 300px;
+    color: white;
+}
+
+.prime-wrapper>p {
+    margin: 20px;
+    height: 3px;
+    background-color: rgb(45, 44, 44);
+}
+
+
+.tabs-section {
+    width: 16%;
+    display: flex;
+    height: 20px;
+    padding-left: 40px;
+    padding-top: 30px;
+    align-items: center;
+}
+
+label:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+#tab-panel-2 {
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.container__item {
+    margin: 25px;
+}
+
+.details__details {
+    display: flex;
+    margin: 20px;
+}
+
+.details__details__column {
+    margin: 20px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>language.aha</title>
+    <link rel="stylesheet" href="./language.css">
+</head>
+<body style="background-color:#2d2d2d;background-image: url(https://www.aha.video/check-backgorund.15b795e2da50fd2a0169.svg)">
+    <nav>
+        <div class="navBar">
+            <div class="logo"><button style="background:#0f0f0f;border:0px;" id="home"><img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSANQwdYOsq7MEyXtE2EMDnzLxf-jvSPDkrlT28q3qtsWW9NNsNLRG2feTECJxabeRuiX4&usqp=CAU" height="30px" alt=""></button></div>
+            <div class="menu">
+                <ul class="nav-links">
+                    <li><a href="./homeVedio.html"><b>Home</b></a></li>
+                    <li><a href="./telguIndian.html"><b>Telgu Indian Idol</b></a></li>
+                    <li><a href="./moviespart.html"><b>Movies</b></a></li>
+                    <li><a href="./homeVedio.html"><b>Shows</b></a></li>
+                    <li><a href="./kidsVedio.html"><b>Kids</b></a></li>
+                    <li><a href="./homeVedio.html"><b>My aha</b></a></li>
+                </ul>
+               </div>
+               <div class="rightBox"> 
+     
+            
+                <div class="searchBox"> <a href="./search.html"><button style="border:0px; background-color:black; color:white;" onclick="departfn()"><image style="height:20px;" src="data:image/png;base64,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"  alt=""></button></div></a>
+             
+             <!-- <div _ngcontent-serverapp-c63 id="search-box" class="ng-tns-c63-0">
+                 <div _ngcontent-serverapp-c63 class="search-icon ng-tns-c63-0 ng-star-inserted"></div>
+             </div> -->
+             <div class="languageBox" >
+                <a href="./language.html"><image style="height:20px; background-color:black; border: none;" src="https://www.aha.video/language-icon.ef88ebcc6b1bcda97fc4.svg"></image></a>
+             </div>
+             <div class="subscribeBox">
+              <a href="./Subscribe.html"><b>Subsribe Now</b></a>
+             </div>
+             <div class="signinBox">
+                <div>  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhDwO8AK7r9AYFNYDeVWP87xZcamwEdLXSsw&usqp=CAU" alt=""></div>
+                <div style="margin-top:15px; margin-left: 2px;"> <a  href="./Signin.html" ><h5 style="color:white; margin-top:10px; ">Sign in</h5></a></div> 
+                 <!-- <div><img style="margin-top:8px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhDwO8AK7r9AYFNYDeVWP87xZcamwEdLXSsw&usqp=CAU"></div>
+                 <div><b style="font-size:16px;border:0px;background-color:#f0f1f7" class="openbtn1" onclick="openNav1()">Sign in</b></div>  -->
+             </div>
+           </div> 
+         </div>
+         </nav>
+    <div class="fullbox">
+        <div class="half1">
+            <h3 style="color:azure">Watch <b style="color:red;">100% </b>content in</h3>
+            <div class="half1a">
+                <input type="radio" id="telgu" name="fav_language" value="Telgu" style="margin-top:40px; margin-left:10px">
+                <label for="html"><h4 style="color:white;margin-top:40px; margin-left:10px;">  తెలుగు<b style="color:rgb(48, 22, 8)">_</b>Telgu</h4> </label>
+              <div class="img1">
+               
+                <img src="https://image-resizer-cloud-cdn.api.aha.firstlight.ai/image/static-asset/lang-sel-screen-cast-te.png?width=146"></div>
+            </div>
+            <div class="half1b">
+                <input type="radio" id="tamil" name="fav_language" value="Tamil"style="margin-top:40px; margin-left:10px">
+                <label for="html"><h4 style="color:white; margin-top: 40px; margin-left:10px;">  తెలుగు<b style="color:gray">_</b>Tamil</h4> </label>
+             <div class="img2"><img src="https://image-resizer-cloud-cdn.api.aha.firstlight.ai/image/static-asset/lang-sel-screen-cast-ta.png?width=146"></div>
+            </div>
+        </div>
+        <div class="half2"> 
+            <h3 style="color:azure ;">Choose Display Language English</h3>
+            <div class="half2a">
+                <div class="btn1"><a href="#"><h5 style="color:white; text-align: center; margin-top:10px;font-family: proximaNova;">English</h5></a></div>
+                <div class="btn2"><a href="#"><h5 style="color:white; text-align: center;margin-top:10px;font-family: proximaNova;">తెలుగు</h5></a></div>
+            </div>
+            <div class="half2b">
+                <div class=proceed><a href="./homeVedio.html"><h4 style="color:white; margin-left:30px; margin-top:5px;">Proceed</h4></a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

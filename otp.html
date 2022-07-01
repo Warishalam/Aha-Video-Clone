@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link rel="stylesheet" href="./otp.css">
+</head>
+<body>
+    <div id="main"> 
+            <div id="upper">
+                <h1>
+                    VERIFY YOUR OTP .
+                    
+                </h1>
+                <h3>
+                    OTP was sent to
+                </h3>
+                <h3 id="mobile">
+                    + 91 7355167733
+                </h3>
+            </div>
+         <div>
+           
+         </div>
+            
+         <input type="password" id="button" value="1234">
+         <button onclick="homefun()" style="font-size:23px ; padding: 6px; width: 200px; background-color: rgb(164, 59, 59);">Submit</button>
+        
+           <h3 id="resend">Resend OTP </h3>
+          
+            <p>By creating an account, you adhere to the</p>
+            <p id="orange_para">Terms Of Service and Privacy Policy.</p>
+        
+       
+        
+    </div>
+   <script>
+    document.querySelector("#button").addEventListener("mouseenter",function(){
+        event.preventDefault();
+      
+        let otp=document.querySelector("").value;
+        if(event.value==1234){
+             location.href = "subscribe.html"
+           }else{
+               alert("invalid phone no")
+           }
+       })
+ 
+       function homefun(){
+           alert("Login Successfully !");
+           window.location.href = "homeVedio.html"
+       }
+
+   </script>
+   
+</body>
+</html>

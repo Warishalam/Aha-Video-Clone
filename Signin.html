@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link rel="stylesheet" href="./Signin.css">
+</head>
+<body>
+    <div id="main"> 
+            <div id="upper">
+                <h1>
+                    LET'S GET STARTED .
+                    
+                </h1>
+                <h3>
+                    Mobile Number
+                </h3>
+                
+            </div>
+         <div>
+           
+         </div>
+            
+                 
+         <div id="lower">
+             <div id="num_1">
+                
+               <div><img src="./Flag_of_India.svg" alt=""></div>   
+               <div id="india"><h3>+91</h3></div>
+              </div>
+              <div>
+                <input type="number" id="otp" >
+              </div>
+              
+         </div>
+         <div id="btn">
+            <input type="submit" id="button" value="Proceed">
+            <p>Or, Use one of the following options</p>
+        </div>
+         <div id="logo">
+         <div id="logo_">
+             <div>
+                <img src="./logo1.PNG" alt="" id="login">
+             </div>
+             <div id="write">
+                <h4>Email</h4> 
+             </div>
+         </div>
+         <div id="logo_">
+             <div>
+                <img src="./logo2.PNG" alt="">
+             </div>
+             <div id="write">
+               <h4>  Facebook</h4>
+             </div>
+         </div>
+         <div id="logo_">
+             <div >
+                <img src="./logo3.PNG" alt="">
+             </div>
+             <div id="write">
+                 <h4>Google</h4>
+                
+             </div>
+         </div>
+         </div>
+        
+    </div>
+   <script>
+    document.querySelector("#button").addEventListener("click",function(){
+        event.preventDefault();
+        let otp=document.querySelector("#otp").value;
+        if(otp.length== 10){
+             location.href = "otp.html"
+           }else{
+               alert("invalid phone no")
+           }
+       })
+ 
+
+   </script>
+   
+</body>
+</html>

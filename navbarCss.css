@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+:root{
+    --body-color:#E4E9F7;
+    --nav-color:#010718;
+    --side-nav:#FFF;
+    --text-color:#F2F2F2;
+    --search-text:#010718;
+}
+body{
+    height:100vh;
+    background-color:var(--body-color);
+    background-image:url(check-backgorund.15b795e….svg);
+}
+nav{
+   /* position:fixed; */
+    top:0;
+    left:0;
+    height:80px;
+    width:100%;
+    background-color:var(--nav-color);
+}
+nav .navBar{
+    position:relative;
+    height:100%;
+    /* max-width:1000px; */
+    width:100%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.navBar .nav-links{
+    display: flex;
+    align-items: center;
+}
+.navBar .nav-links li{
+    margin:18px;
+    list-style: none;
+}
+.nav-links li a{
+    position: relative;
+    font-size:13px ;
+    font-style: normal;
+    font-weight: 600;
+    font-weight: 500;
+    color:#fff;
+    text-decoration: none;
+    padding: 5px;
+    margin: auto;
+    /* border: solid white; */
+    /* margin-left: 50px; */
+}
+nav .navBar .logo{
+    margin-left: 30px;
+}
+.nav-links li a::before{
+    content: '';
+    position: absolute;
+    /* left:10%; */
+    bottom:0;
+    transform:translateX(50%);
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    opacity: 0;
+    transition: all 0.3s ease;
+    color:aquamarine
+}
+/* .languageBox>image{
+    height:50%;
+    width:5px;
+    border:0px;
+} */
+.rightBox{
+    position:relative;
+    height:100%;
+    width:27%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     margin-left: 220px; 
+    /* margin-right: 5px; */
+    padding-inline-end: 5px;
+  
+
+}
+
+.subscribeBox{
+    background-color: orangered;
+    height:40px;
+    width:150px;
+    font-weight: 30%;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-decoration:none;
+    text-align: center;
+    border-radius: 30px;
+
+}
+b{
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.subscribeBox b{
+    background-color: orangered;
+
+}
+a{
+    text-decoration:none;
+}
+.signinBox{
+    display: flex;
+    margin-right: 20px;
+}
+.signinBox img{
+
+ height:35px;
+ width:23px;
+}

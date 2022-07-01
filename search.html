@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./search.css">
+              
+</head>
+<body>
+    <nav>
+    <div class="navBar">
+        <div class="logo"><a href="./index.html"><button style="background:#0f0f0f;border:0px;" id="home"><img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSANQwdYOsq7MEyXtE2EMDnzLxf-jvSPDkrlT28q3qtsWW9NNsNLRG2feTECJxabeRuiX4&usqp=CAU" height="30px" alt=""></button></a></div>
+        <div class="menu">
+            <ul class="nav-links">
+                <li><a href="./homeVedio.html"><b>Home</b></a></li>
+                <li><a href="./telguIndian.html"><b>Telgu Indian Idol</b></a></li>
+                <li><a href="./moviespart.html"><b>Movies</b></a></li>
+                <li><a href="./homeVedio.html"><b>Shows</b></a></li>
+                <li><a href="./kidsVedio.html"><b>Kids</b></a></li>
+                <li><a href="./homeVedio.html"><b>My aha</b></a></li>
+            </ul>
+           </div>
+        <div class="rightBox"> 
+            <div class="searchBox">
+              
+              <input type="text" id="searchinput" onchange="debounce(fetchdata(),3000)"  alt=""placeholder="    Search Title, Movie or Cast">
+           </div>
+        
+        <!-- <div _ngcontent-serverapp-c63 id="search-box" class="ng-tns-c63-0">
+            <div _ngcontent-serverapp-c63 class="search-icon ng-tns-c63-0 ng-star-inserted"></div>
+        </div> -->
+        <div class="languageBox" >
+            <a href="./language.html"><image style="height:20px; background-color:black; border: none;" src="https://www.aha.video/language-icon.ef88ebcc6b1bcda97fc4.svg"></image></a>
+        </div>
+        <div class="subscribeBox">
+         <a href="./subscribe.html" ><b>Subsribe Now</b></a>
+        </div>
+       
+      </div> 
+    </div>
+
+    </nav>
+    <div id="fullBox">
+        <div class="box2">
+            <h1>Trending Searches</h1>
+        </div>
+     <div class="halfBox">
+      <div class="a">
+          <div class="b"><img src="https://image-resizer-cloud-api.akamaized.net/image/E51CB6A8-D3A9-474C-84E7-BDB6B2980239/0-16x9.jpg?width=240" alt="	https://www.aha.video/premium-tag.e5df97bbb026e5ce238e.svg" height=100% width=100% onclick="window.location.href='https://www.aha.video/webseries/unstoppable'" /></div>
+          <div class="c">Unstoppable</div>
+      </div>
+      <div class="a">
+        <div class="b"><img src="https://image-resizer-cloud-api.akamaized.net/image/37BA7292-BFA6-4B9E-8B08-9714B147136A/0-16x9.jpg?width=240" height=100% width=100%  onclick="window.location.href='https://www.aha.video/movie/arjuna-phalguna'"></div>
+        <div class="c">Arjuna Phalguna</div>
+    </div>
+    <div class="a">
+        <div class="b"><img src="https://image-resizer-cloud-api.akamaized.net/image/4BAD80A8-8D00-4010-B9E3-02F257B86B74/0-16x9.jpg?width=240" height=100% width=100% onclick="window.location.href='https://www.aha.video/movie/senapathi'"></div>
+        <div class="c">Senapathi</div>
+    </div>
+    <div class="a">
+        <div class="b"><img src="https://image-resizer-cloud-api.akamaized.net/image/AE9D806A-5950-4F13-8FAD-1CFF2AD7DABF/0-16x9.jpg?width=240" height=100% width=100% onclick="window.location.href='https://www.aha.video/movie/the-american-dream'"></div>
+        <div class="c">The American Dream</div>
+    </div>
+    <div class="a">
+        <div class="b"><img src="https://image-resizer-cloud-api.akamaized.net/image/A7C4A8B8-B112-4C74-8AFC-6128093F71FC/0-16x9.jpg?width=240" height=100% width=100% onclick="window.location.href='https://www.aha.video/webseries/chef-mantra'"></div>
+        <div class="c">Chef Mantara</div>
+    </div>
+    <div class="a">
+        <div class="b"><img src="https://image-resizer-cloud-api.akamaized.net/image/5A8AAB23-17F7-4E49-A299-8D422EA8117B/0-16x9.jpg?width=240" height=100% width=100% onclick="window.location.href='https://www.aha.video/movie/pushpaka-vimanam'"></div>
+        <div class="c">Pushpaka Vimanam</div>
+    </div>
+    <div class="a">
+        <div class="b"><img src="https://image-resizer-cloud-api.akamaized.net/image/6B0D8C15-6BF9-4B85-A5B9-511462B75BA3/0-16x9.jpg?width=240" height=100% width=100% onclick="window.location.href='https://www.aha.video/webseries/unstoppable'"></div>
+        <div class="c">Manchi Rojulochaie</div>
+    </div>
+    <div class="a">
+      <div class="b"><img src="https://image-resizer-cloud-api.akamaized.net/image/836A0A87-656C-46FE-BBD1-F12BA6088F68/0-16x9.jpg?width=240" height=100% width=100% onclick="window.location.href='https://www.aha.video/webseries/unstoppable'"></div>
+      <div class="c">SARKAAR</div>
+  </div>
+  <div class="a">
+      <div class="b"><img src="https://image-resizer-cloud-api.akamaized.net/image/7C1146D3-79CA-47FF-AB88-B9721D445531/0-16x9.jpg?width=240" height=100% width=100% onclick="window.location.href='https://www.aha.video/webseries/unstoppable'"></div>
+      <div class="c">The Baker & The Beauty</div>
+  </div>
+  <div class="a">
+      <div class="b"><img src="https://image-resizer-cloud-api.akamaized.net/image/1D67B609-AC68-4A94-B80E-D0B8437B5519/0-16x9.jpg?width=240" height=100% width=100% onclick="window.location.href='https://www.aha.video/webseries/unstoppable'"></div>
+      <div class="c">3 Roses</div>
+  </div>
+ 
+
+    </div>
+    </div>
+
+
+
+   
+</body>
+</html>
+<script src="./search.js"></script>
